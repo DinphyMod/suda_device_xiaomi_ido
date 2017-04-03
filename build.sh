@@ -129,6 +129,6 @@ fi
 
 echo ""
 TET=$(date +%s)
-info "All done in $(((TET-TST)/60)) minutes $(((TET-TST)%60)) seconds"
+info "编译完成，总共用了 $(((TET-TST)/60)) 分 $(((TET-TST)%60)) 秒.."
 echo "$txtrst"
 echo ""
